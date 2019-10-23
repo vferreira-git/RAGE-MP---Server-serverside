@@ -11,8 +11,7 @@ namespace DAL.EF
     public class DALContext : DbContext
     {
         string v;
-        //Server = 127.0.0.1; Database=ragemp;Uid=root;Pwd=
-        public DALContext() : this("Server = 173.249.30.247; Database=ragemp;Uid=rage;Pwd=M~qv20v4")
+        public DALContext() : this("Removed conn string for github")
         {
 
         }
@@ -24,7 +23,7 @@ namespace DAL.EF
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseMySql("Server = 173.249.30.247; Database=ragemp;Uid=rage;Pwd=M~qv20v4", ob => ob.MigrationsAssembly(typeof(DALContext).GetTypeInfo().Assembly.GetName().Name));
+            optionsBuilder.UseMySql("Removed conn string for github", ob => ob.MigrationsAssembly(typeof(DALContext).GetTypeInfo().Assembly.GetName().Name));
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
