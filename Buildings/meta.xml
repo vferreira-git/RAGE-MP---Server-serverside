@@ -1,0 +1,4 @@
+﻿<meta>
+  <info name="GF Roleplay: Buildings Resource" author="kPk" type="script" />
+  <script src="compiled/netcoreapp2.2/Buildings.dll" />
+</meta>

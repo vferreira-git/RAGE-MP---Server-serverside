@@ -1,0 +1,4 @@
+﻿<meta>
+  <info name="GF Roleplay: Main Resource" author="kPk" type="script" />
+  <script src="compiled/netcoreapp2.2/Main.dll" />
+</meta>

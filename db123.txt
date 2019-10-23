@@ -1,0 +1,2 @@
+Add-Migration Nova // Adicionar nova
+Update-Database // Update DB.
